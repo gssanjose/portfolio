@@ -1,0 +1,30 @@
+{
+  "name": "glen-san-jose",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glen San Jose",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "sass": "^1.50.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gssanjose/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gssanjose/portfolio/issues"
+  },
+  "homepage": "https://github.com/gssanjose/portfolio#readme"
+}
